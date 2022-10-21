@@ -4,14 +4,20 @@
 # Wg Server for Windows
 # 适用于 Windows 的 Wg 服务器
 WS4W is a desktop application that allows running and managing a WireGuard server endpoint on Windows.
+
 WS4W 是一个桌面应用程序，允许在窗口上运行和管理WireGuard server端点。
+
 Inspired by Henry Chang's post, [How to Setup Wireguard VPN Server On Windows](https://www.henrychang.ca/how-to-setup-wireguard-vpn-server-on-windows/), my goal was to create an application that automated and simplified many of the complex steps. While still not quite a plug-and-play solution, the idea is to be able to perform each of the prerequisite steps, one-by-one, without running any scripts, modifying the Registry, or entering the Control Panel.
+
 受到Henry Chang的帖子[如何在Windows上设置Wireguard VPN服务器”的启发](https://www.henrychang.ca/how-to-setup-wireguard-vpn-server-on-windows/)，我的目标是创建一个自动化和简化许多复杂步骤的应用程序。虽然仍然不是一个即插即用的解决方案，但这个想法是能够逐个执行每个先决条件步骤，而无需运行任何脚本，修改注册表或进入控制面板。
 
-# Getting Started 开始
+# Getting Started 
+# 开始
 The latest release is available [here](https://github.com/micahmo/WgServerforWindows/releases/latest). Download the installer and run.
+
 最新版本可在此处获取。[下载](https://github.com/micahmo/WgServerforWindows/releases/latest)，安装程序并运行
 > **Note**: The application will request to run as Administrator. Due to all the finagling of the registry, Windows services, wg.exe calls, etc., it is easier to run the whole application elevated.
+> 
 > **注意**：应用程序将请求以管理员身份运行。由于注册表，Windows服务，wg.exe调用等的所有混乱，因此更容易运行提升的整个应用程序。
 
 #### Upgrade from 1.5.2
